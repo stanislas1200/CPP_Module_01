@@ -11,12 +11,12 @@ int main(void)
 	std::string *ptr = &str;
 	std::string &ref = str;
 
-	std::cout << BOLDCYAN << "address of str: " << RESET << &str << std::endl;
-	std::cout << BOLDCYAN << "address of ptr: " << RESET << &ptr << std::endl;
-	std::cout << BOLDCYAN << "address of ref: " << RESET << &ref << std::endl;
+	std::cout << BOLDCYAN << "address of str:            " << RESET << &str << std::endl;
+	std::cout << BOLDCYAN << "address held by ptr:       " << RESET << ptr << std::endl;
+	std::cout << BOLDCYAN << "address held by ref:       " << RESET << &ref << std::endl;
 
-	std::cout << BOLDMAGENTA << "value of str: " << RESET << str << std::endl;
-	std::cout << BOLDMAGENTA << "value of ptr: " << RESET << *ptr << std::endl;
-	std::cout << BOLDMAGENTA << "value of ref: " << RESET << ref << std::endl;
+	std::cout << BOLDMAGENTA << "value of str:            " << RESET << str << std::endl;
+	std::cout << BOLDMAGENTA << "value pointed to by ptr: " << RESET << *ptr << std::endl;
+	std::cout << BOLDMAGENTA << "value pointed to by ref: " << RESET << ref << std::endl;
 	return (0);
 }
