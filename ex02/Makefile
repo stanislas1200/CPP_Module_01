@@ -27,7 +27,7 @@ RESET = \033[0m
 
 all: ${NAME}
 
-${NAME}: ${OBJS} ${INCL}
+${NAME}: ${OBJS}
 	@${GCC} ${OBJS} -o ${NAME} && echo -ne "\r${BLUE}Compiling ${NAME} ${GREEN}Done${RESET}\n" || echo -ne "\r${BLUE}Compiling ${NAME} ${RED}Error${RESET}\n"
 
 $(OBJS_DIR)%.o: %.cpp
