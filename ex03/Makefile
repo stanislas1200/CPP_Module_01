@@ -19,7 +19,7 @@ INCL = include/Weapon.hpp\
 		include/HumanA.hpp\
 		include/HumanB.hpp
 
-NAME = Zombie
+NAME = a.out
 
 GCC = g++ -std=c++98 -Wall -Wextra -Werror
 
