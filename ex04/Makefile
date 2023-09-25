@@ -12,7 +12,7 @@
 
 SRCS = main.cpp
 
-NAME = Zombie
+NAME = sed
 
 GCC = g++ -std=c++98 -Wall -Wextra -Werror
 
