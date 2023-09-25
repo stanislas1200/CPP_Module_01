@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   newZombie.cpp                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sgodin <sgodin@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/25 14:51:04 by sgodin            #+#    #+#             */
+/*   Updated: 2023/09/25 14:51:04 by sgodin           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/Zombie.hpp"
 
-Zombie* newZombie( std::string name )
+Zombie*	newZombie( std::string name )
 {
-    return (new Zombie(name));
+	return (new Zombie(name));
 }
